@@ -1,0 +1,50 @@
+After stats
+After LLB_mem
+Start Builing the Look-up Table!
+Copying information to the main hash table!
+Done!
+After new matrix
+After scheduling
+In ExtractBTopTile 0 0
+Left the while loop
+Left the 3rd while loop
+Grew the tile
+We grew j (0, 4507) and k (0, 4507)
+k_end_top, j_end_top: 4507 4507
+Updated the 465 i rank
+Updated the 1849 i rank
+Updated the 3232 i rank
+Updated the 4926 i rank
+Updated the 8191 i rank
+In ExtractBTopTile 4507 4507
+Left the 4th while loop
+Grew the tile
+We grew j (4507, 8191) and k (0, 4507)
+k_end_top, j_end_top: 4507 8191
+Updated the 6500 i rank
+Updated the 8191 i rank
+In ExtractBTopTile 8191 4507
+Left the while loop
+Left the 3rd while loop
+Grew the tile
+We grew j (0, 8191) and k (4507, 8191)
+k_end_top, j_end_top: 8191 8191
+Updated the 4511 i rank
+Updated the 6153 i rank
+Updated the 7786 i rank
+Updated the 8191 i rank
+runtime: 0.003498, cycles: 3498244, busy_cycles: 110825158
+Top DOT NoC:
+ total_top: 0.223677 GBs, a_top: 46593948, b_top: 20731100, o_r_top: 42347264, o_w_top: 130498908
+Middle DOT NoC:
+ total_mid: 0.212819 GBs, a_mid: 46593948, b_mid: 96711672, o_r_mid: 0, o_w_mid: 85207216
+Top bandwidth logger: 250898467 bytes, 0.233667 GBs
+Middle bandwidth logger: 0 bytes, 0.000000 GBs
+BW logger a: 0, b: 0, o_r: 0, o_w: 0
+total_traffic 249750104, a_read 0, b read 0, o_read 0, o_write 0
+Model 0 report is based on skip model, changes with tile size
+Model 0: 0.000866
+Model 1: 0.002030
+A_csf: 30309984, B_csf: 30309984, O_csf: 88151644, O_COO: 62339776, bandwidth: 68.250000 GB/s
+Sorted PE intersection cycles:
+MEAN: 865822, STDEV 22913
