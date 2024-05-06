@@ -34,12 +34,9 @@ Setup:
         - llb default partitioning: A = 5%, B=50%, C=45%
 
 4. To run the ExTensor simulation:
+        - `src/SpMSpM_ExTensor --inp1=./data/test_amazon0302.mtx --inp2=./data/test_amazon0302.mtx --tiledim=32 --staticdist=rr --tiling=static --i=32 --j=32 --k-32 | tee out.txt`
 
-5. To run the idealized OuterSPACE simulation:
-
-6. To run the idealized MatRaptor simulation:
-
-7. If you are using slurm, you can use the python scripts in the `run_...` directories to launch similar runs as those found in the paper. Please replace the DATADIR, OUTDIR, and EXECDIR with your local file paths (to your dataset directory of mtx files, the output directory where you want results, and the directory of your executable, respectively)
+5. If you are using slurm, you can use the python scripts in the `run_...` directories to launch similar runs as those found in the paper. Please replace the DATADIR, OUTDIR, and EXECDIR with your local file paths (to your dataset directory of mtx files, the output directory where you want results, and the directory of your executable, respectively). You can also use the `slurmtest.py` files to see example launch commands and configurations. 
 
 *** 
 The simulator spits out text similar to the following (we only include relevant output below):
